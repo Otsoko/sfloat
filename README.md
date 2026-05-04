@@ -5,8 +5,8 @@ SFloat implementation in C
 
 ```c
 uint16_t raw         = 0xD5F0;
-double   value       = sfloat_to_double(raw);
-uint16_t sfloatbytes = double_to_sfloat(value);
+double   value       = sfloat2double(raw);
+uint16_t sfloatbytes = double2sfloat(value);
 ```
 
 
